@@ -9,8 +9,8 @@ from sklearn.decomposition import PCA
 from sklearn.metrics import classification_report, accuracy_score
 
 # Paths to the dataset folders
-train_dir = 'C:/Users/ADMIN/Desktop/Prodigy last/dogs-vs-cats/train/'
-test_dir = 'C:/Users/ADMIN/Desktop/Prodigy last/dogs-vs-cats/test1/'
+train_dir = 'C:/Users/ADMIN/Desktop/PRODIGY_ML_03/dogs-vs-cats/train/'
+test_dir = 'C:/Users/ADMIN/Desktop/PRODIGY_ML_03/dogs-vs-cats/test1/'
 
 # Function to load and preprocess images with a limit
 def load_images(data_dir, max_cats=4000, max_dogs=4000):
